@@ -1,0 +1,100 @@
+
+
+body {
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+    background: #1C1C1C;
+    padding: 5em;
+
+}
+
+/* TYPEOGRAPHY */
+
+h1 {
+    font-family: 'Karla', sans-serif;
+    font-size: 3rem;
+    margin: 0;
+}
+
+h1, p {
+    text-align: center;
+}
+
+h1 span,
+input {
+    color: #4ADF86;
+}
+
+.subtitle {
+    font-size: 1.25rem;
+    font-weight: 300;
+    margin-top: 1.25em;
+}
+
+
+/* LAYOUT */
+
+.wrapper {
+    max-width: 600px;
+    border: 4px solid #fff;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.container {
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    display: flex;
+    flex-direction: column;
+    background: #1F2937;
+    padding: 6em 2em;
+    border-radius: 10px;
+}
+
+.password-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+button,
+input {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 0;
+}
+
+button {
+    font-family: 'Inter';
+    background: #10B981;
+    color: #fff;
+    outline: none;
+    margin: 2em;
+}
+
+hr {
+    margin: 1.5em 0;
+    border: 1px solid #2F3E53;
+} 
+
+input {
+    background: #273549;
+    text-align: center;
+    font-weight: 500;
+    margin: 0.85em 1em;
+}
+
+input:focus {
+    outline: none;
+}
+
+@media(min-width: 700px) {
+    button,
+    input {
+        font-size: 0.95rem;
+        padding: 12px 24px;
+    }
+    .password-container {
+        flex-direction: row;
+    }
+}
