@@ -14,7 +14,7 @@ const getRandomChar = () => {
 }
 
 // Generate the final password
-// Upgrade: add a param that takes an int that will determine number of chars
+// Upgrade: add a param + field that takes an int that will determine number of chars
 const getRandomPassword = () => {
     let randomPassword = "";
     //pick a random char from the chars array 15x

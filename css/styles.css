@@ -37,6 +37,7 @@ input {
 
 .wrapper {
     max-width: 600px;
+    width: 90%;
     border: 4px solid #fff;
     border-radius: 10px;
     margin: 0 auto;
